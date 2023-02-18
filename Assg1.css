@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar-image {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.heading {
+    background-color: black;
+}
+
+.one {
+    background-image: url("https://www.sunshineandhurricanes.com/wp-content/uploads/2017/10/Tech-Rules-for-Teens-and-Tweens-FB1.jpg");
+
+    height: 70vh;
+    background-size: cover;
+    color: white;
+}
+
+.one_1 {
+    margin-left: 20%;
+}
+
+.spa {
+    font-size: 20px;
+}
+
+.two {
+    margin: 5%;
+}
+
+.third {
+    background-color: #99004C;
+    color: white;
+    padding: 5px;
+}
+
+.third_1 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.four {
+    background-color: #E0E0E0;
+    color: black;
+}
+
+.four_1 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.circle1 {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+    border-color: #E0E0E0;
+    color: #000099;
+    padding: 5px;
+    margin: 20px;
+}
+
+.circle2 {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+    border-color: #E0E0E0;
+    color: #FF8000;
+    padding: 5px;
+    margin: 20px;
+}
+
+.circle3 {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+    border-color: #E0E0E0;
+    color: #C48A15;
+    padding: 5px;
+    margin: 20px;
+}
+
+.four_2_1 {
+    border-style: groove;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #000099;
+    border-width: 0px;
+    height: 10%;
+}
+
+.four_2_1_con {
+    background-image: linear-gradient(#FFFFFF, #E0E0E0);
+    text-align: center;
+    padding-bottom: 80px;
+    height: 90%;
+}
+
+.four_2_2 {
+    border-style: groove;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #99004C;
+    border-width: 0px;
+    height: 10%;
+}
+
+.four_2_2_con {
+    background-image: linear-gradient(#E0E0E0, #FFFFFF);
+    padding-top: 30%;
+    width: 100%;
+    height: 20%;
+}
+
+.circle4 {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+    border-color: #E0E0E0;
+    color: #99004C;
+    padding: 5px;
+    margin: 20px;
+}
+
+.circle5 {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+    border-color: #E0E0E0;
+    color: #006633;
+    padding: 5px;
+    margin: 20px;
+}
+
+.four_2_3 {
+    border-style: groove;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #FF8000;
+    border-width: 0px;
+    height: 10%;
+}
+
+.four_2_4 {
+    border-style: groove;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #006633;
+    border-width: 0px;
+    height: 10%;
+}
+
+.four_2_5 {
+    border-style: groove;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #C48A15;
+    border-width: 0px;
+    height: 10%;
+}
+
+.img12 {
+    height: 20%;
+    width: 60%;
+    margin: 10px;
+    padding-left: 50px;
+
+}
+
+.parag {
+    text-align: center;
+}
+
+.five {
+    margin: 3%;
+    border-style: groove;
+}
+
+.five_1 {
+    text-align: center;
+}
+
+.five_2 {
+    border-left: 1px groove #E0E0E0;
+    height: 60vh;
+
+}
+
+.but {
+    background-color: #000066;
+    color: white;
+    border-width: 0px;
+    height: 40px;
+    width: 200px;
+}
+
+.six {
+    background-color: #E0E0E0;
+}
+
+.six_1 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.face {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1px;
+}
+
+.linkd {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1px;
+}
+
+.seven {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.last {
+    margin-left: 5%;
+    margin-right: 5%;
+}

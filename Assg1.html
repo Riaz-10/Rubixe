@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="heading navbar navbar-expand-lg navbar-dark bg-dark" style="color:whiye;">
+
+            <a class="navbar-brand d-flex flex-row " href="#">
+                <img src="data:image/jpeg;base64,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" class="navbar-image" alt="" />
+                <p>Rubixe</p>
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="#">
+                        Home <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#">Servies</a>
+                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="#">AI Internships</a>
+                    <a class="nav-link" href="#">Career</a>
+                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+        <div class="one d-flex flex-column justify-content-end mt-2">
+            <div class="d-flex flex-row justify-content-start one_1">
+                <div>
+                    <h1>TECH<br><span class="spa">FOR</span> TEENS</h1>
+                    <p>CARVING FUTURE<br>TECHNOLOGY PROFESSIONALS<br>OUT OF YOUNG MINDS</p>
+                </div>
+            </div>
+        </div>
+        <div class="two d-flex flex-row ">
+            <div class="p-2">
+                <h1>WHO WE ARE</h1>
+                <p>Rubixe<sup>TM</sup> is a gobal technology company specializing in disruptive technologies - Artificial Intelligence (AI). Machine Learning. Robotic Process Automation (RPA), BlockChain, and Internet of Things (IoT).
+                </p>
+                <p>Rubixe<sup>TM</sup> mission is to enable businesses to leverage the full potential of disruptive technologies and stay competitive in the market, turning complex challenges into solutions, providing a strategic competitive advantage that are more efficient, effective and predictable.</p>
+            </div>
+            <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTabJA7aYmwc6QYczwJXQhBmBRsvnFIA3Kigg&usqp=CAU" />
+        </div>
+        <div class="third">
+            <div class="third_1">
+                <h1>WHERE WE STARTED</h1>
+                <p>We started in 2015. With a passionate team who want to bring game-changing solutions through disrupting technologies. We expertise delivering enterprise-level solutions in the field of Artificial Intelligence (AI), Cyber Security, Robotic Process Automation (RPA) Internet of Things (IoT), and BlockChain technology.</p>
+            </div>
+        </div>
+        <div class="four pt-5 pb-3">
+            <div class="four_1">
+                <h1>TECH FOR TEENS - A RUBIXE ® INITIAVITE</h1>
+                <div class="four_2 d-flex flex-row p-5">
+                    <div class="four_2_1 m-1 shadow">
+                        <p class="m-1  circle1">01</p>
+                        <div class="four_2_1_con d-flex flex-column justify-content-center">
+                            <img class="img12" src="https://cdn-icons-png.flaticon.com/512/1766/1766430.png" />
+                            <p class="parag">Introducing AI to children in an age appropriate manner.</p>
+                        </div>
+                    </div>
+                    <div class="four_2_2 m-1 shadow">
+                        <div class="four_2_2_con d-flex flex-column ">
+                            <p class="parag">Gain awareness on AI and build an interactive story around it</p>
+                            <img class="img12" src="https://cdn-icons-png.flaticon.com/512/1766/1766430.png" />
+                        </div>
+                        <p class="circle4">02</p>
+                    </div>
+                    <div class="four_2_3 m-1 shadow">
+                        <p class="m-1 circle2">03</p>
+                        <div class="four_2_1_con d-flex flex-column justify-content-center">
+                            <img class="img12" src="https://cdn-icons-png.flaticon.com/512/1829/1829850.png" />
+                            <p class="parag">Acquire programming skills in a user-friendly manner format</p>
+                        </div>
+                    </div>
+                    <div class="four_2_4 m-1 shadow">
+                        <div class="four_2_2_con d-flex flex-column">
+                            <p class="parag">Exposure to mini projects on diverse topics</p>
+                            <img class="img12" src="https://cdn-icons-png.flaticon.com/512/1766/1766430.png" />
+                        </div>
+                        <p class="circle5">04</p>
+                    </div>
+                    <div class="four_2_5 m-1 shadow">
+                        <p class="m-1  circle3">05</p>
+                        <div class="four_2_1_con d-flex flex-column justify-content-center">
+                            <img class="img12" src="https://cdn-icons-png.flaticon.com/512/1766/1766430.png" />
+                            <p class="parag">Train the teachers programme</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="five">
+            <div class="d-flex flex-row">
+                <div class="five_1 p-2 d-flex flex-column justify-content-center">
+                    <h1>GET IN TOUCH</h1>
+                    <p>Please complete the form and w will get back to you.</p>
+                </div>
+                <div class="five_2 m-4 "></div>
+                <div class="five_3 pl-2 pt-5 pb-3">
+                    <div>
+                        <form>
+                            <label for="name">Name*</label>
+                            <input size="20" class="form-control" type="text" id="name" placeholder="Enter Your Name" />
+                            <br>
+                            <label for="email">Email*</label>
+                            <input size="20" class="form-control" type="text" id="email" placeholder="Enter Your Email" />
+                            <br>
+                            <label for="mn">Mobile Number*</label>
+                            <input maxlength="10" size="20" class="form-control" type="text" id="mn" placeholder="Enter Your Mobile Number" />
+                            <br><br>
+                            <button class="but" type="submit">Register Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="six pt-3">
+            <div class="six_1 d-flex flex-row">
+                <div class="p-3">
+                    <p>ABOUT US</p>
+                    <p>Rubixe<sup>TM</sup> is a global technology company specializing in disruptive technologies Artificial Intelligence (AI), Machine Learning, Robotic Process Automation (RPA), BlockChain and Internet of Things (IoT).
+                        Rubixe mission to enable businesses to leverage the full potential of disruptive technologies to stay competitive in the market.</p>
+                </div>
+                <div class="p-3">
+                    <p>MENUS</p>
+                    <p>Home<br>Services<br>Product<br>Career</p>
+                </div>
+                <div class="p-3">
+                    <p>LEARN MORE</p>
+                    <p>About<br>Contact Us</p>
+
+                </div>
+                <div class="p-3">
+                    <p>ADDRESS</p>
+                    <p>Novel Tech Park, 1st Floor, Hosur Rd, Kudlu gate, Bengaluru, Karnataka 560068<br>Phone: 0804-717-8999<br>Email: hi@rubixe.com</p>
+                    <p>SOCIAL MEDIA</p>
+                    <div class="d-flex flex-row p-2">
+                        <div class"face p-1">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <div class="linkd p-1">
+                            <i class="fab fa-linkedin icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seven p-3">
+            <p class="last">© Copyright 2017 - 2023 | Rubixe is a brand of THINK AHEAD INNOVATIONS PVT. LTD. | All Rights Reserved
+
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
